@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name:       Demo URL button for Woocommerce
+ * Plugin Name:       Demo URL button for WooCommerce
  * Plugin URI:        https://github.com/prappo/woocommerce-add-demo-link-button/
  * Description:       Add custom demo link button after add to cart button in woocommerce.
  * Version:           1.0.0
@@ -18,5 +18,5 @@
  **/
 
 if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option('active_plugins')))) {
-    include 'functions.php';
+    include plugin_dir_path(__FILE__) . '/functions.php';
 }
