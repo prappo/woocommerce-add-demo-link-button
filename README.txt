@@ -1,4 +1,4 @@
-=== Woocommerce add demo link button ===
+=== Demo URL button for WooCommerce ===
 Contributors: prappo_p
 Tags: woocommerce
 Requires at least: 5.0
